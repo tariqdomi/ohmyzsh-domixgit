@@ -1,5 +1,5 @@
-PROMPT="%(?:%{$fg_bold[green]%}⦿:%{$fg_bold[red]⦿%}) %{$fg_bold[cyan]%} %~: %{$reset_color%}"
-RPROMPT='$(git_prompt_status)$(git_prompt_info)'
+PROMPT="%(?:%{$fg_bold[green]%}⦿:%{$fg_bold[red]⦿%}) %{$fg_bold[cyan]%}%~: %{$reset_color%}"
+RPROMPT=' $(git_prompt_status)$(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg[green]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
